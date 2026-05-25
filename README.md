@@ -2,12 +2,12 @@
 
 ## Repository Outline
 ```
-1. P2M3_Stefano_Veronigo_Wijaya_ddl.txt - DDL SQL query
-2. P2M3_Stefano_Veronigo_Wijaya_data_raw.csv - Raw data from PostGreSQL
-3. P2M3_Stefano_Veronigo_Wijaya_data_clean.csv - Cleaned data from airflow
-4. P2M3_Stefano_Veronigo_Wijaya_DAG.py - Airflow DAG file
-5. P2M3_Stefano_Veronigo_Wijaya_DAG_graph.jpg - Screenshot of DAG graph in Airflow
-6. P2M3_Stefano_Veronigo_Wijaya_GX.ipynb - Great Expectations notebook
+1. ddl.txt - DDL SQL query
+2. data_raw.csv - Raw data from PostGreSQL
+3. data_clean.csv - Cleaned data from airflow
+4. DAG.py - Airflow DAG file
+5. DAG_graph.jpg - Screenshot of DAG graph in Airflow
+6. GX.ipynb - Great Expectations notebook
 7. images (folder) - Kibana visualizations and insights
 ```
 
@@ -49,10 +49,8 @@ Clean dataset has their columns standardized and missing values handles with med
     - datetime
 
 ## Reference
-- Apache Documentation              : https://airflow.apache.org/docs/ + class recording
-- ElasticSearch Documentation       : class recording
-- Kibana Documentation              : class recording
-- Great Expectations Documentation  : https://greatexpectations.io/expectations/ + class recording
+- Apache Documentation              : https://airflow.apache.org/docs/ 
+- Great Expectations Documentation  : https://greatexpectations.io/expectations/ 
 
 ---
 
